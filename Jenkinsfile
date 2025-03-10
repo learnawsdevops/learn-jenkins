@@ -29,7 +29,7 @@ pipeline {
                 script {
                     sh 'echo "Building the project..."'
                     sh 'mkdir -p $BUILD_DIR'
-                    #test
+                    sh 'echo "test"'
                 }
             }
         }
