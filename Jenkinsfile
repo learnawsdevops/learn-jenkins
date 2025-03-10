@@ -70,7 +70,7 @@ pipeline {
         }
         always {
             echo "Cleaning up workspace..."
-            sh 'rm -rf /var/lib/jenkins/workspace/learn-jenkins'
+            sh 'rm -rf /var/lib/jenkins/workspace/learn-jenkins/*'
         }
     }
 }
