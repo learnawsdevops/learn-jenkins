@@ -30,6 +30,7 @@ pipeline {
                     sh 'echo "Building the project..."'
                     sh 'mkdir -p $BUILD_DIR'
                     sh 'echo "test"'
+                    sh 'echo "test1"'
                 }
             }
         }
