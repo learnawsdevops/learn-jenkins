@@ -70,7 +70,7 @@ pipeline {
         }
         always {
             echo "Cleaning up workspace..."
-            sh 'rm -rf $BUILD_DIR'
+            #sh 'rm -rf $BUILD_DIR'
         }
     }
 }
