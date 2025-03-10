@@ -14,7 +14,8 @@ pipeline {
 
     options {
         timeout(time: 10, unit: 'MINUTES')  // Set timeout for pipeline
-        retry(2)  // Retry the pipeline twice if it fails
+        retry(1)  // Retry the pipeline twice if it fails
+        disableConcurrentBuilds()
     }
 
     stages {
